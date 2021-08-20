@@ -128,7 +128,7 @@
       },
       "root": "projects/mfe1",
       "sourceRoot": "projects/mfe1/src",
-      "prefix": "app",
+      "prefix": "mfe1",
       "architect": {
         "build": {
           "builder": "ngx-build-plus:browser",
@@ -241,7 +241,7 @@
       },
       "root": "projects/mfe2",
       "sourceRoot": "projects/mfe2/src",
-      "prefix": "app",
+      "prefix": "mfe2",
       "architect": {
         "build": {
           "builder": "ngx-build-plus:browser",
