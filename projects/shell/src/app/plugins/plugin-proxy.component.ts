@@ -28,7 +28,12 @@ export class PluginProxyComponent implements OnInit, OnChanges {
 
     const factory = this.componentFactoryResolver.resolveComponentFactory(component);
 
-    this.viewContainer.createComponent(factory, undefined, this.injector);
+    const compRef = this.viewContainer.createComponent(factory, undefined, this.injector);
+
+    // const compInstance = compRef.instance;
+    // compInstance.a = 'xx'
+    // compInstance.onChange.subscribe(...)
+    // compInstance.m();
 
   }
 

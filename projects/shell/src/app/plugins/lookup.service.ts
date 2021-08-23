@@ -6,7 +6,9 @@ import { Injectable } from '@angular/core';
 })
 export class LookupService {
 
-  constructor() { }
+  constructor() {
+    console.log('in look up service constructor')
+  }
 
   lookup(): Promise<PluginOptions[]> {
     return Promise.resolve([
