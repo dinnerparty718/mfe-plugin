@@ -7,7 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
+    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js",
+    "start1": "ng serve --project mfe1 --port 3000",
+    "start2": "ng serve --project mfe2 --port 3001"
   },
   "private": true,
   "dependencies": {
